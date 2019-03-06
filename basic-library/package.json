@@ -8,10 +8,27 @@
   "author": "Dominik Kundel <hi@dominik.dev> (https://dkundel.com)",
   "license": "MIT",
   "devDependencies": {
+    "@pika/pack": "^0.3.4",
+    "@pika/plugin-build-node": "^0.3.14",
+    "@pika/plugin-build-web": "^0.3.14",
+    "@pika/plugin-ts-standard-pkg": "^0.3.14",
     "typescript": "^3.3.3333"
   },
   "dependencies": {
     "@types/ms": "^0.7.30",
     "ms": "^2.1.1"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-ts-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-node"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ]
+    ]
   }
 }

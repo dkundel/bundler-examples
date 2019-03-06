@@ -1,0 +1,30 @@
+{
+  "name": "basic-library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "dist-src/index.js",
+  "types": "dist-types/index.d.ts",
+  "main": "dist-node/index.js",
+  "module": "dist-web/index.js",
+  "pika": true,
+  "sideEffects": false,
+  "keywords": [],
+  "files": [
+    "dist-*/",
+    "assets/",
+    "bin/"
+  ],
+  "dependencies": {
+    "@types/ms": "^0.7.30",
+    "ms": "^2.1.1"
+  },
+  "devDependencies": {
+    "@pika/pack": "^0.3.4",
+    "@pika/plugin-build-node": "^0.3.14",
+    "@pika/plugin-build-types": "^0.3.14",
+    "@pika/plugin-build-web": "^0.3.14",
+    "@pika/plugin-standard-pkg": "^0.3.14",
+    "@pika/plugin-ts-standard-pkg": "^0.3.14",
+    "typescript": "^3.3.3333"
+  }
+}

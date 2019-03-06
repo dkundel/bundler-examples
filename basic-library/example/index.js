@@ -1,4 +1,4 @@
-const myLib = require('../dist');
+const myLib = require('../pkg');
 
 (async function() {
   const input = 'Hello little panda!';
