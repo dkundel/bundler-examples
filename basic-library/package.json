@@ -2,12 +2,14 @@
   "name": "basic-library",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build src/index.ts -o dist"
   },
   "keywords": [],
   "author": "Dominik Kundel <hi@dominik.dev> (https://dkundel.com)",
   "license": "MIT",
   "devDependencies": {
+    "@zeit/ncc": "^0.15.2",
     "typescript": "^3.3.3333"
   },
   "dependencies": {
