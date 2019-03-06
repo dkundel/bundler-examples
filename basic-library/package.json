@@ -1,0 +1,17 @@
+{
+  "name": "basic-library",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dominik Kundel <hi@dominik.dev> (https://dkundel.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/ms": "^0.7.30",
+    "ms": "^2.1.1"
+  }
+}
