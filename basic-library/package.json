@@ -2,16 +2,23 @@
   "name": "basic-library",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle build"
   },
   "keywords": [],
   "author": "Dominik Kundel <hi@dominik.dev> (https://dkundel.com)",
   "license": "MIT",
   "devDependencies": {
+    "microbundle": "^0.11.0",
     "typescript": "^3.3.3333"
   },
   "dependencies": {
     "@types/ms": "^0.7.30",
     "ms": "^2.1.1"
-  }
+  },
+  "main": "dist/index.js",
+  "umd:main": "dist/myLib.umd.js",
+  "module": "dist/myLib.mjs",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts"
 }

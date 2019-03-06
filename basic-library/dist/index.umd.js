@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports,require("ms")):"function"==typeof define&&define.amd?define(["exports","ms"],n):n(e.basicLibrary={},e.ms)}(this,function(e,n){n=n&&n.hasOwnProperty("default")?n.default:n,e.pandafy=function(e){return e.replace(/\bpanda\b/gi,"🐼")},e.sleep=function(e){var t=n(e);return new Promise(function(e){setTimeout(e,t)})}});
+//# sourceMappingURL=index.umd.js.map
