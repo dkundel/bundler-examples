@@ -45,12 +45,10 @@ Consumes following dependencies:
 
 ## Bundler Examples:
 
-- [`parcel-bundler`](https://npm.im/parcel-bundler):
-  - [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/parcel)
-  - [📦 Output](https://github.com/dkundel/bundler-examples/tree/parcel/basic-webapp/dist)
-- [`webpack`](https://npm.im/webpack):
-  - [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/webpack)
-  - [📦 Output](https://github.com/dkundel/bundler-examples/tree/webpack/basic-webapp/dist)
+| Bundler                                                                                                                           |                                                                                                                                                                                |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="https://avatars1.githubusercontent.com/u/2105791?s=30&v=4" /> <br/> [`webpack`](https://npm.im/webpack)                 | [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/webpack) <br /> [📦 Output](https://github.com/dkundel/bundler-examples/tree/webpack/basic-webapp/dist) |
+| <img src="https://avatars2.githubusercontent.com/u/32607881?s=30&v=4" /> <br /> [`parcel-bundler`](https://npm.im/parcel-bundler) | [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/parcel) <br /> [📦 Output](https://github.com/dkundel/bundler-examples/tree/parcel/basic-webapp/dist)   |
 
 # License
 
