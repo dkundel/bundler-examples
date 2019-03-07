@@ -5,7 +5,7 @@ different bundlers. The repository is meant for neutral comparison, meaning it
 only uses the bare minimum in each bundler to get the example working. Therefore,
 none of these examples will focus on bundle size.
 
-Every example has the output committed to it and the input source code is always the same.
+Every example has the output committed to it and the input source code is always the same, except minor changes in importing for Web App bundling.
 
 ## Basic Library
 
@@ -22,15 +22,12 @@ Consumes one dependency:
 
 ### Bundler Examples:
 
-- [`microbundle`](https://npm.im/microbundle):
-  - [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/microbundle)
-  - [📦 Output](https://github.com/dkundel/bundler-examples/tree/microbundle/basic-library/dist)
-- [`@pika/pack`](https://npm.im/@pika/pack):
-  - [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/pika)
-  - [📦 Output](https://github.com/dkundel/bundler-examples/tree/pika/basic-library/pkg)
-- [`@zeit/ncc`](https://npm.im/@zeit/ncc):
-  - [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/ncc)
-  - [📦 Output](https://github.com/dkundel/bundler-examples/tree/ncc/basic-library/dist)
+| Bundler                                                                                                                                                |                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://avatars0.githubusercontent.com/u/12554859?s=30&v=4" /><br/> [`rollup`](https://npm.im/rollup)                                        | [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/rollup) <br /> [📦 Output](https://github.com/dkundel/bundler-examples/tree/rollup/basic-library/dist)           |
+| 📦 <br> [`microbundle`](https://npm.im/microbundle)                                                                                                    | [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/microbundle) <br /> [📦 Output](https://github.com/dkundel/bundler-examples/tree/microbundle/basic-library/dist) |
+| <img src="https://next.pikapkg.com/static/img/new-logo1.png" height="30"/> <br /> [`@pika/pack`](https://npm.im/@pika/pack)                            | [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/pika) <br /> [📦 Output](https://github.com/dkundel/bundler-examples/tree/pika/basic-library/pkg)                |
+| <img src="https://assets.zeit.co/image/upload/front/assets/design/zeit-black-triangle.svg" height="30" /> <br> [`@zeit/ncc`](https://npm.im/@zeit/ncc) | [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/ncc) <br /> [📦 Output](https://github.com/dkundel/bundler-examples/tree/ncc/basic-library/dist)                 |
 
 ## Basic Web App
 
@@ -48,9 +45,12 @@ Consumes following dependencies:
 
 ## Bundler Examples:
 
-- [`parcel-bundler`](https://npm.im/@zeit/ncc):
+- [`parcel-bundler`](https://npm.im/parcel-bundler):
   - [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/parcel)
   - [📦 Output](https://github.com/dkundel/bundler-examples/tree/parcel/basic-webapp/dist)
+- [`webpack`](https://npm.im/webpack):
+  - [🛠Changes Needed](https://github.com/dkundel/bundler-examples/compare/webpack)
+  - [📦 Output](https://github.com/dkundel/bundler-examples/tree/webpack/basic-webapp/dist)
 
 # License
 
