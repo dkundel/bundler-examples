@@ -1,4 +1,5 @@
 import { formatDistance, parseISO } from 'date-fns';
+import './styles.scss';
 
 const dateInputElement = document.getElementById(
   'date-input'
